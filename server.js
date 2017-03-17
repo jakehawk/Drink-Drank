@@ -1,3 +1,5 @@
 console.log('test');
 
-//changes
+function isSquare(num) {
+	return Math.sqrt(num) === Math.floor(Math.sqrt(num));
+}
